@@ -8,23 +8,3 @@
     grid-template-rows: 64px 1fr 88px;
     grid-template-columns: 288px 1fr;
 }
-
-header{
-  background-color: blanchedalmond;
-  grid-area: cabecalho;
-}
-
-aside{
-  background-color: rgb(168, 101, 20);
-  grid-area: ladoEsquerdo;
-}
-
-main{
-  background-color: burlywood;
-  grid-area: principal;
-}
-
-footer{
-  background-color: teal;
-  grid-area: rodape;
-}
