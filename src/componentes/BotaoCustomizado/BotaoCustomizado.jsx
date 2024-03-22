@@ -13,7 +13,11 @@ const BotaoCustomizado = (props) => {
     }
 
     // return <button className='botao-customizado botao-customizado-primario'>{props.children}</button>
-    return <button className={classes.join(' ')}>{props.children}</button>
-}
+    return (
+        <button className={classes.join(' ')} onClick={props.onClick}>
+            {props.children}
+        </button>
+    );
+};
 
 export default BotaoCustomizado;
